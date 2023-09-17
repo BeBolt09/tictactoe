@@ -1,15 +1,18 @@
+//Made by Sebastien Dupont
 package main
 
 import (
 	"fmt"
 )
 
+//make constants so that X and O can have an assigned numerical value
 const (
 	EMPTY = 0
 	X     = 1
 	O     = 2
 )
 
+//Create the board the game will be played in
 type Board struct {
 	board [3][3]int
 	turn  int
