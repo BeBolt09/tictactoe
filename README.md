@@ -1,2 +1,1 @@
-# tictactoe
-Golang code for a tictactoe game
+TIC TAC TOE game writen in Golang
